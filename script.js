@@ -17,7 +17,7 @@ document.getElementById("celula-form").addEventListener("submit", async function
 
   try {
     // Envia os dados para o Apps Script (Web App)
-    const response = await fetch("https://script.google.com/macros/s/AKfycbyyV_5rwLZt6MoP5HEsa7YbunU3JCGYrw4Z3Et8Hl4/dev", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxEeGj4-pzQh29zAozKgs3Izp3G3Ww_K3zY22uZO9dTf5c4qNL42gvWGu2o4xclO8SM/exec", {
       method: "POST",
       mode: "cors",
       cache: "no-cache",
