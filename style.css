@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .envelope {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+  }
+  
+  .banner-alinhado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dedee0;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .banner-img {
+    max-width: 100px;
+    margin-right: 15px;
+    height: auto;
+  }
+  
+  .titulo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #0d2972;
+  }
+  
+  .titulo h2 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #000;
+  }
+  
+  .visao {
+    color: #b32227;
+    font-weight: bold;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #003399;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #a30000;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  #mensagem-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
